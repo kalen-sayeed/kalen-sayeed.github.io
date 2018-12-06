@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+/*Desktop / Global View*/
+
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #DBDBDB
+}
+h1 {
+	color: mediumslateblue;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 60;
+	font-weight: 500
+}
+.col{
+	float: left;
+	padding: 1%;
+	
+		
+}
+
+.col-lg{
+	width: 31.3%;
+	
+}
+.col-lg img{
+	width: 100%;
+	height: auto;
+	display: block;
+	
+}
+
+
+.slicknav_menu {
+	display: none;
+}
+#logo {
+	height: 100px;
+}
+#menu {
+	float: right;
+}
+#menu li {
+	display: inline-block;
+}
+#menu li a {
+	text-decoration: none;
+	color: slategray;
+	padding: 8px;
+	font-size: 18px;
+}
+head {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.hero {
+	background-image: url(Images/altitude-clouds-cold-933054.jpg);
+	padding: 72px 72px 72px 72px;
+	back-size: cover;
+}
+.subheading {
+	color: #fff;
+	font-weight: 800;
+	font-size: 30px;
+	margin-bottom: -48px;
+}
+h1 {
+	color: #fff;
+	font-weight: lighter;
+	font-size: 52px;
+	margin-bottom: -5px;
+}
+.heading-body-copy {
+	color: #fff;
+	margin-right: 20%;
+}
+.lets-talk {
+	background-color: #F1474C;
+	padding: 8px;
+	text-decoration: none;
+	color: #fff;
+}
+
+/*Tablet View*/
+@media (max-width: 768px) {
+#menu li {
+	display: block;
+	text-align: right;
+}
+	.col-md{
+		width: 48%;
+		
+	}
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+/*Mobile View*/
+@media (max-width: 400px) {
+.slicknav_menu {
+	display: block;
+}
+#menu {
+	display: none;
+}
+	
+	.col-sm{
+		width: 100%;
+		
+	}
+	
+	.col{
+		padding: 0%;
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
